@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(0, 52, 91, 0.4);
+}
+
+#form{
+    background-color :rgb(255, 255, 255);
+    width:25%;
+    border-radius: 4px;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82,11,77);
+}
+
+#btn{
+    color:rgb(255, 255, 255);
+    background-color:rgb(108, 22, 189);
+    padding: 10px;
+    font-size:large;
+    border: radius 10px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0,0%,25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color:azure;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align:center;
+}
+
+.navbar a:hover{
+background-color: hsl(0, 0%, 10%)
+}
+
+.navbar li{
+    float:left;
+}
+@media screen and (max-width: 570px){
+#form{
+    width:65%;
+    margin-left: none;
+    padding: 40px;
+}
+} 
